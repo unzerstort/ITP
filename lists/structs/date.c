@@ -5,8 +5,8 @@ typedef struct
 	int day, month, year;
 }date;
 
-date scanDate();
-void printDate(date d);
+date scanDate(void);
+void printDate(date);
 
 int main()
 {
